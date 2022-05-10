@@ -57,7 +57,7 @@ p {
 .fpage {
     height: 100%;
     width: 100%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(images/1.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/1.jpg);
     background-position: center;
     background-size: cover;
     position: absolute;
@@ -75,7 +75,7 @@ p {
 .logo {
 
     font-size: 32px;
-    color: #b16329;
+    color: rgb(231 111 22);
     font-style: normal;
     font-weight: 700;
     letter-spacing: 1px;
