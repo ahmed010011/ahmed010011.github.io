@@ -1,0 +1,94 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="style.css">
+  <title>Travel Hub</title>
+  <html lang="en">
+</head>
+
+<body>
+  <div class="fpage">
+    <div class="navbar">
+      <div>
+        <a href="website.html" class="logo">Travel Hub</a>
+      </div>
+      <nav>
+        <ul id="navigation">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Services</a></li>
+
+          <li><a href="#">Contact</a></li>
+          <li><button class="loginbtn" onclick="
+          document.getElementById('login-form').style.display='block'
+          document.getElementById('main').style.display='none'
+          " style="width:auto;">Login</button></li>
+        </ul>
+      </nav>
+    </div>
+    <div id='login-form' class='login-page'>
+      <div class="form-box">
+        <div class="button-box">
+          <div id="btn"></div>
+          <button type="button" onclick='login()' class="toggle-btn">Log In</button>
+          <button type="button" onclick='register()' class="toggle-btn">Register</button>
+        </div>
+        <form id='login' class='input-group-login'>
+          <input type="text" class="input-field" placeholder="Email Id" required>
+          <input type="password" class="input-field" placeholder="Enter Password" required>
+          <input type="checkbox" class="check-box"><span>Remember Password</span>
+          <button type="submit" class="submit-btn">Log in</button>
+        </form>
+        <form id='register' class='input-group-register'>
+          <input type="text" class="input-field" placeholder="First Name" required>
+          <input type="text" class="input-field" placeholder="Last Name " required>
+          <input type="email" class="input-field" placeholder="Email Id" required>
+          <input type="password" class="input-field" placeholder="Enter Password" required>
+          <input type="password" class="input-field" placeholder="Confirm Password" required>
+          <input type="checkbox" class="check-box"><span>I agree to the terms and conditions</span>
+          <button type="submit" class="submit-btn">Register</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <section class="main" id="main">
+    <div>
+      <p class="tv"> TRAVEL Around The Word</p>
+      <p class="pv">Explore The World With Us </p><br><br><br>
+
+    </div>
+    <a href="./index_.html" target="_blank">Australia</a>
+    <a href="./WEB. 2.html" target="_blank">Algeria</a>
+    <a href="./web1.html" target="_blank">Ancient Egypt</a>
+    <a href="./Historic tourism in Morocco.HTML" target="_blank">Morocco</a>
+    <a href="./+¦+ê+¦+è+º.HTML" target="_blank">Russia</a>
+    <a href="./EG.html" target="_blank">Egypt</a>
+    <a href="./Historical tourism in Jordan.html" target="_blank">Jordan</a>
+    <a href="./index000.html" target="_blank">sports tourism</a>
+    <a href="./WEB. 1.html" target="_blank">Medical tourism in the world</a>
+    </div>
+  </section>
+
+
+  <script>
+    var x = document.getElementById('login');
+    var y = document.getElementById('register');
+    var z = document.getElementById('btn');
+    function register() {
+      x.style.left = '-400px';
+      y.style.left = '50px';
+      z.style.left = '110px';
+    }
+    function login() {
+      x.style.left = '50px';
+      y.style.left = '450px';
+      z.style.left = '0px';
+    }
+
+  </script>
+</body>
+
+</html>
